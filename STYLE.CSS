@@ -24,3 +24,9 @@
         width: 100%;
         font-size: 32px;
     }
+    .botao{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: var(--botao-inativo);
+        color: var(--roxo);
+        
+    }
