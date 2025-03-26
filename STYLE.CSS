@@ -1,9 +1,9 @@
 :root{
-    --cor-de-fundo:#ac0f99;
-    --roxo:#b734d8;
-    --botao-ativo:#8750c7;
-    --botao-inativo:#1d0527;
-    --texto-fundo:#030303;
+    --cor-de-fundo:#030003;
+    --roxo:#080808;
+    --botao-ativo:#50c7b3;
+    --botao-inativo:#3bcae4d0;
+    --texto-fundo:#28d6ce;
     }
     body{
         background-color: var(--cor-de-fundo);
@@ -28,5 +28,10 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: var(--botao-inativo);
         color: var(--roxo);
-        
+        display: flex;
+        justify-content: center;
+        padding: 1 em;
+        font-size: 18px;
+        align-items: center;
+        width: 100%;
     }
